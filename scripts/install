@@ -77,7 +77,7 @@ ynh_script_progression --message="Install mosquitto" --weight=45
 
 # Install the standard version from debian repository
 ynh_apt update
-ynh_package_install mosqitto
+ynh_package_install mosquitto
 
 #=================================================
 # ADVERTISE SERVICE IN ADMIN PANEL
