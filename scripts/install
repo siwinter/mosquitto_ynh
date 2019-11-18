@@ -83,7 +83,7 @@ ynh_package_install mosquitto
 # ADVERTISE SERVICE IN ADMIN PANEL
 #=================================================
 
-yunohost service add mosquitto --log "/var/log/mosquitto/mosquitto.log
+yunohost service add mosquitto --log "/var/log/mosquitto/mosquitto.log"
 
 #=================================================
 # Bloedsinn
