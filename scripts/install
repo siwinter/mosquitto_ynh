@@ -88,7 +88,7 @@ yunohost service add mosquitto --log "/var/log/mosquitto/mosquitto.log"
 #=================================================
 # Bloedsinn
 #=================================================
-ynh_multimedia_build_main_dir
+#ynh_multimedia_build_main_dir
 #=================================================
 # END OF SCRIPT
 #=================================================
