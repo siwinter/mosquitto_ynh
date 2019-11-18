@@ -1,21 +1,34 @@
 {
-    "name": "Mosquitto",
+	"name": "Mosquitto",
     "id": "mosquitto",
-    "packaging_format": 1,
-    "description": {
-        "en": "MQTT Server",
-        "fr": "MQTT Server"
-    },
-    "version": "1.0~ynh1",
-    "url": "https://www.einfachServer.tv/",
-    "license": "non-free",
-    "maintainer": {
-        "name": "John doe",
-        "email": "john.doe@example.com",
-        "url": "http://sohndoe.com"
-    },
-    "requirements": {
-        "yunohost": ">= 3.5"
-    },
-    "multi_instance": false,
+	"packaging_format": 1,
+	"description": {
+		"en": "MQTT Server",
+		"fr": "MQTT Server"
+	},
+	"version": "1.0~ynh5",
+	"url": "http://minidlna.sourceforge.net/",
+	"license": "GPL-2.0",
+	"maintainer": {
+		"name": "Maniack Crudelis",
+		"email": "maniackc_dev@crudelis.fr"
+	},
+	"requirements": {
+		"yunohost": ">= 3.4"
+	},
+	"multi_instance": false,
+	"services": [],
+	"arguments": {
+		"install" : [
+			{
+				"name": "version",
+				"ask": {
+					"en": "Select the minidlna version to install",
+					"fr": "Choix de la version de mosquitto à installer"
+				},
+				"choices": ["A. Version of the Debian repositories - recommended", "B. Latest version available for Debian"],
+				"default": "A. Version of the Debian repositories - recommended"
+			}
+		]
+	}
 }
